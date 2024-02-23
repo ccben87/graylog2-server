@@ -414,18 +414,20 @@ allow_leading_wildcard_searches = false
 # should only be enabled after making sure your Elasticsearch cluster has enough memory.
 allow_highlighting = false
 
+<<<<<<< HEAD
 # Sets field value suggestion mode. The possible values are:
 #  1. "off" - field value suggestions are turned off
 #  2. "textual_only" - field values are suggested only for textual fields
 #  3. "on" (default) - field values are suggested for all field types, even the types where suggestions are inefficient performance-wise
 field_value_suggestion_mode = on
-
+=======
 # Replace "." characters in keys with "_". Dots are not allowed by Elasticsearch version 2.0 up to 5.0 (excluded).
 # Support have been restored in Elasticsearch 5.0.
 # See: https://www.elastic.co/guide/en/elasticsearch/reference/2.0/breaking_20_mapping_changes.html#_field_names_may_not_contain_dots
 # See: https://www.elastic.co/guide/en/elasticsearch/reference/5.0/release-notes-5.0.0.html#enhancement-5.0.0
 # Default: true
 #replace_dots_in_field_names = true
+>>>>>>> replace-dots/replace-dots
 
 # Global timeout for index optimization (force merge) requests.
 # Default: 1h
